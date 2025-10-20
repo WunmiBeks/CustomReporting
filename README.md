@@ -48,6 +48,14 @@ HTML/CSS
 
 ---
 
+## Dashboard Screenshot
+
+![Dashboard Screenshot](./DashboardScreenshot.png)
+
+---
+
+
+
 ## 👤 Author
 Wunmi Ogunbekun
 
