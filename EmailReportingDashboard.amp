@@ -1,0 +1,49 @@
+<table>
+  <tr>
+    <th>Email Name</th>
+    <th>Total Sent</th>
+    <th>Total Opens</th>
+    <th>Open Rate</th>
+    <th>Total Clicks</th>
+    <th>Click Rate</th>
+    <th>Total Claimed</th>
+    <th>Claimed Rate</th>
+  </tr>
+
+%%[
+SET @rows = LookupRows("Special Discount Email Reporting Dashboard","ToDIsplay", "TRUE")
+SET @rowCount = rowcount(@rows)
+
+IF @rowCount > 0 THEN
+
+  for @i = 1 to @rowCount do
+
+    SET @row = row(@rows, @i)
+    SET @EmailName = field(@row,"EmailName")
+    SET @TotalSent = field(@row,"TotalSent")
+    SET @TotalOpens = field(@row,"TotalOpens")
+    SET @OpenRate = field(@row,"OpenRate")
+    SET @TotalClicks = field(@row,"TotalClicks")
+    SET @ClickRate = field(@row,"ClickRate")
+    SET @TotalClaimed = field(@row,"TotalClaimed")
+    SET @ClaimedRate = field(@row,"ClaimedRate")
+    
+    SET @totalSentFormat = FormatNumber(@TotalSent, "#,###")
+    SET @totalOpenFormat = FormatNumber(@TotalOpens, "#,###")
+    SET @totalClickFormat = FormatNumber(@TotalClicks, "#,###")
+]%%
+
+<tr>
+  <td>%%=V(@EmailName)=%%</td>
+  <td>%%=V(@totalSentFormat)=%%</td>
+  <td>%%=V(@totalOpenFormat)=%%</td>
+  <td>%%=V(@OpenRate)=%%%</td>
+  <td>%%=V(@totalClickFormat)=%%</td>
+  <td>%%=V(@ClickRate)=%%%</td>
+  <td>%%=V(@TotalClaimed)=%%</td>
+  <td>%%=V(@ClaimedRate)=%%%</td>
+</tr>
+
+%%[ NEXT @i ]%%
+%%[ ENDIF ]%%
+</table>
