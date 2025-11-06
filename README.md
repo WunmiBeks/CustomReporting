@@ -50,7 +50,7 @@ These CSVs replicate SFMC Data Views:
 
 | Data Extension | Description |
 |----------------|-------------|
-| **JourneyDE** | Simulated journey entry audience |
+| **CustDE-CampaignAudience** | Simulated journey entry audience |
 | **ClaimedDiscountDE** | Stores discount claims with EmailID attribution |
 
 ---
@@ -58,33 +58,92 @@ These CSVs replicate SFMC Data Views:
 ## Data Extensions (Screenshots)
 
 ### Job_DV  
-![Job_DV](https://raw.githubusercontent.com/WunmiBeks/CustomReporting/main/Screenshots/Job_DV.png)
+![Job_DV](https://raw.githubusercontent.com/WunmiBeks/CustomReporting/main/Images/Job_DV.png)
+
+<br><br><br>
 
 ### Sent_DV  
-![Sent_DV](https://raw.githubusercontent.com/WunmiBeks/CustomReporting/main/Screenshots/Sent_DV.png)
+![Sent_DV](https://raw.githubusercontent.com/WunmiBeks/CustomReporting/main/Images/Sent_DV.png)
+
+<br><br><br>
 
 ### Open_DV  
-![Open_DV](https://raw.githubusercontent.com/WunmiBeks/CustomReporting/main/Screenshots/Open_DV.png)
+![Open_DV](https://raw.githubusercontent.com/WunmiBeks/CustomReporting/main/Images/Open_DV.png)
+
+<br><br><br>
 
 ### Click_DV  
-![Click_DV](https://raw.githubusercontent.com/WunmiBeks/CustomReporting/main/Screenshots/Click_DV.png)
+![Click_DV](https://raw.githubusercontent.com/WunmiBeks/CustomReporting/main/Images/Click_DV.png)
 
-### JourneyDE  
-![JourneyDE](https://raw.githubusercontent.com/WunmiBeks/CustomReporting/main/Screenshots/JourneyDE.png)
+<br><br><br>
+
+### CustDE-CampaignAudience  
+![JourneyDE](https://raw.githubusercontent.com/WunmiBeks/CustomReporting/main/Images/CustDE-CampaignAudience.png)
+
+<br><br><br>
 
 ### Journey_DV  
-![Journey_DV](https://raw.githubusercontent.com/WunmiBeks/CustomReporting/main/Screenshots/Journey_DV.png)
+![Journey_DV](https://raw.githubusercontent.com/WunmiBeks/CustomReporting/main/Images/JourneyDV.png)
+
+<br><br><br>
 
 ### Journey_Activity  
-![Journey_Activity](https://raw.githubusercontent.com/WunmiBeks/CustomReporting/main/Screenshots/Journey_Activity.png)
+![Journey_Activity](https://raw.githubusercontent.com/WunmiBeks/CustomReporting/main/Images/Journey_Activity.png)
+
+<br><br><br>
 
 ### ClaimedDiscountDE  
-![ClaimedDiscountDE](https://raw.githubusercontent.com/WunmiBeks/CustomReporting/main/Screenshots/ClaimedDiscountDE.png)
+![ClaimedDiscountDE](https://raw.githubusercontent.com/WunmiBeks/CustomReporting/main/Images/ClaimedDiscounts.png)
 
 ---
 
 ## SQL Query Activities
 
-### Email-Level Engagement Query  
-```sql
--- Paste your SQL here
+### Email-Level Engagement Query  Screenshots
+
+**Total Sent Query Screenshots**
+![Total Sent](https://raw.githubusercontent.com/WunmiBeks/CustomReporting/main/Images/E-sent.png)
+
+<br><br><br>
+
+**Total Opens Query Screenshots**
+[Total Opens](https://raw.githubusercontent.com/WunmiBeks/CustomReporting/main/Images/E-opens.png)
+
+<br><br><br>
+
+**TotalClicks Query Screenshots**
+[Total clicks](https://raw.githubusercontent.com/WunmiBeks/CustomReporting/main/Images/E-clicks.png)
+
+<br><br><br> 
+
+**Claimed Query Screenshots**
+[Total Claimed](https://raw.githubusercontent.com/WunmiBeks/CustomReporting/main/Images/E-claimed.png)
+<br><br><br>
+
+**Rates Query Screenshots**
+[Rates](https://raw.githubusercontent.com/WunmiBeks/CustomReporting/main/Images/Rates.png)
+<br>
+
+### Journey-Level Engagement Query  Screenshots
+
+**Total Sent Query Screenshots**
+![Total Sent](https://raw.githubusercontent.com/WunmiBeks/CustomReporting/main/Images/j-sent.png)
+
+<br><br><br>
+
+**Total Opens Query Screenshots**
+[Total Opens](https://raw.githubusercontent.com/WunmiBeks/CustomReporting/main/Images/j-opens.png)
+
+<br><br><br>
+
+**TotalClicks Query Screenshots**
+[Total clicks](https://raw.githubusercontent.com/WunmiBeks/CustomReporting/main/Images/j-clicks.png)
+
+<br><br><br> 
+
+**Claimed Query Screenshots**
+[Total Claimed](https://raw.githubusercontent.com/WunmiBeks/CustomReporting/main/Images/j-claimed.png)
+<br><br><br>
+
+**Rates Query Screenshots**
+[Rates](https://raw.githubusercontent.com/WunmiBeks/CustomReporting/main/Images/j-rates.png)
