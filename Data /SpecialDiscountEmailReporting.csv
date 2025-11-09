@@ -1,0 +1,4 @@
+EmailName,TotalSent,TotalOpens,OpenRate,TotalClicks,ClickRate,TotalClaimed,ClaimedRate,ToDIsplay
+E1 Special Discount Launch Email,490,398,81.22,194,39.59,30,6.12,True
+E2 Special Discount Reminder Email,469,320,68.23,124,26.44,57,12.15,True
+E3 Special Discount Final Email,439,323,73.58,71,16.17,32,7.29,True
